@@ -1,0 +1,89 @@
+/* BOX MODEL
+1. La etiqueta debe tener:
+   -contenido
+   -width y height
+
+2. la etiqueta debe tener display:block
+Implica:
+
+*/
+.box{
+    height: 200px; 
+}
+
+#caja1{
+    display: block;
+    /* border: nesecita la siguientes cosas:
+    -estilo de borde
+    -ancho de border
+    -color de borde */
+
+    border:rgb(9,200,45, 0.9) 5px dotted ;
+    margin: 100px 200px 100px 50px;
+}
+
+.box1{
+    background-color: salmon;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#caja2{
+
+display:block;
+width: 300px;
+border-top: #4622ff ridge 10px;
+border-left: #98f25f inset 20px;
+border-bottom: blue dotted 20px;
+margin-top: 120px;
+
+}
+
+.box2{
+    background-color: rgb(34, 85, 90);
+    padding: 30px 84px 10px 20px;
+
+}
+
+#caja3{
+
+    display:block;
+    width: 400px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+
+
+}
+
+.box3{
+    background-color: gray;
+    padding: 50px 40px 10px;
+    border-style: outset ;
+    border-width: 50px;
+    border-color: aquamarine;
+    border-right-width: 40px ;
+    border-right-color: #5254bf ;
+    
+}
+
+#caja4{
+    display: block;
+    width: 400px;
+}
+.box4{
+    background-color: chocolate;
+    padding: 50px 40px 10px;
+    border-style: double ;
+    border-top-color: antiquewhite;
+    border-top-width: 50px;
+    border-left-color: rgb(152, 228, 30);
+    border-left-width: 30px ;
+    border-right-width: 40px ;
+    border-right-color: #5254bf ;
+}
